@@ -179,6 +179,10 @@ footer {
     color: red;
 }
 
+.fa:hover {
+    color: rgb(160, 160, 160);
+}
+
 .footer-links {
     color: white;
     list-style: none;
@@ -187,6 +191,15 @@ footer {
     padding: 0;
     gap: 24px;
     font-size: 20px;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: rgb(160, 160, 160);
 }
 
 .copyright {
