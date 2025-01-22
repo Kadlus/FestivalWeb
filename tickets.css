@@ -1,0 +1,67 @@
+.tickets-body {
+    width: 80%;
+    margin: auto;
+}
+
+.tickets-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tickets-header h2 {
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.table-tickets {
+    display: flex;
+    flex-direction: column;
+}
+
+.tickets-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+
+.tickets-row img {
+    width: 200px;
+    height: 50%;
+}
+
+.festival-length, .festival-comission {
+    width: 30%;
+    font-size: 18px;
+}
+
+.tickets-row button {
+    background: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 200px;
+    font-size: 18px;
+    border-radius: 12px;
+    text-transform: uppercase;
+}
+
+.tickets-row button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: opacity 0.5s ease;
+}
+
+
+.tickets-footer img {
+    display: block;
+    margin: 100px auto;
+    width: 50%;
+}
+
+.tickets-footer img:hover {
+    cursor: pointer;
+}
