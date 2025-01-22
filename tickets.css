@@ -17,6 +17,7 @@
 .table-tickets {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .tickets-row {
@@ -24,7 +25,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-height: 100px;
+    min-height: 150px;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 16px;
 }
 
 .tickets-row img {

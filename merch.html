@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <title>Ultra Miami Festival</title>
     <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="merch.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <nav id="home" class="navbar">
     <ul class="nav-links">
         <li class="nav-link">
-            <a href="">Home</a>
+            <a href="index.html">Home</a>
         </li>
         <li class="nav-link">
             <a href="index.html#about">About</a>
@@ -33,7 +34,71 @@
     </ul>
 </nav>
 <main>
+    <div class="product-container">
+        <div class="product-card">
+            <img src="images/tank-top-heart.jpg" alt="Men's Tank Top Street" class="product-image">
+            <h3 class="product-title">Men's Tank Top Street</h3>
+            <p class="product-description">Men's tank top with original Ignite print.</p>
+            <p class="product-price">590 CZK</p>
+            <select class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+            <div class="color-container">
+                <button class="color-option black"></button>
+            </div>
+            <div class="quantity-container">
+                <input type="number" min="1" value="1" class="quantity-input">
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+        </div>
 
+        <div class="product-card">
+            <img src="images/mikina-beats-4-love.jpg" alt="Hoodie Beats 4 Love" class="product-image">
+            <h3 class="product-title">Hoodie Beats 4 Love</h3>
+            <p class="product-description">Comfortable hoodie with Beats for Love print on the back.</p>
+            <p class="product-price">850 CZK</p>
+            <select class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+            </select>
+            <div class="color-container">
+                <button class="color-option green"></button>
+                <button class="color-option blue"></button>
+                <button class="color-option black"></button>
+            </div>
+            <div class="quantity-container">
+                <input type="number" min="1" value="1" class="quantity-input">
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="images/mikina-anniversary.jpg" alt="Hoodie Anniversary" class="product-image">
+            <h3 class="product-title">Hoodie Anniversary</h3>
+            <p class="product-description">High-quality hoodie with original print for the 10th festival anniversary.</p>
+            <p class="product-price">1,490 CZK</p>
+            <select class="size-select">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+            <div class="color-container">
+                <button class="color-option green"></button>
+                <button class="color-option black"></button>
+            </div>
+            <div class="quantity-container">
+                <input type="number" min="1" value="1" class="quantity-input">
+                <button class="add-to-cart">Add to cart</button>
+            </div>
+        </div>
+    </div>
 </main>
 
 <footer>
